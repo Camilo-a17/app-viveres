@@ -49,7 +49,7 @@ function App() {
     setList([]);
   };
   const removeItem = (id) => {
-    showAlert(true, 'danger', 'item removed');
+    showAlert(true, 'danger', 'item eliminado');
     setList(list.filter((item) => item.id !== id));
   };
   const editItem = (id) => {
